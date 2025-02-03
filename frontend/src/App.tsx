@@ -19,8 +19,8 @@ const router = createBrowserRouter([
   }
 ], {
   future: {
-    v7_startTransition: true,      // 启用过渡功能
-    v7_relativeSplatPath: true    // 启用相对路径解析
+    // React Router v6 中的正确 future 配置
+    v7_relativeSplatPath: true
   }
 });
 
